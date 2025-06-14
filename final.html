@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contus Tech Clone</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo-link">
+                <img src="contus_logo.png" alt="Contus Tech Logo" class="logo-img">
+            </a>
+            <button id="openModalBtn" class="btn btn-primary">Let's Talk</button>
+        </div>
+    </header>
+    <div id="contactModal" class="common-modal">
+        <div class="common-modal-content">
+            <span class="common-close-btn">×</span>
+            <h2>Let's talk about your next project</h2>
+            <form id="contactForm">
+                <div class="common-form-grid">
+                    <div class="common-form-group full-width">
+                        <label for="fullName">Full Name*</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="common-form-group">
+                        <label for="email">Business Email*</label>
+                        <input type="email" id="email" name="email" placeholder="yourname@company.com" required>
+                    </div>
+                    <div class="common-form-group">
+                        <label for="phone">Phone Number*</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91" required>
+                    </div>
+                    <div class="common-form-group">
+                        <label for="country">Country/Region*</label>
+                        <select id="country" name="country" required>
+                            <option value="" disabled selected>Your Country</option>
+                            <option value="USA">United States</option>
+                            <option value="India">India</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                    </div>
+                    <div class="common-form-group">
+                        <label for="company">Company Name*</label>
+                        <input type="text" id="company" name="company" placeholder="Company.Inc" required>
+                    </div>
+                    <div class="common-form-group full-width">
+                        <label for="services">Services*</label>
+                        <select id="services" name="services" required>
+                            <option value="" disabled selected>Select Your Services</option>
+                            <option value="iot">IoT Solutions</option>
+                            <option value="cloud">Cloud Solutions</option>
+                            <option value="media">Media Solutions</option>
+                            <option value="messaging">Messaging Solutions</option>
+                        </select>
+                    </div>
+                    <div class="common-form-group full-width">
+                        <label for="message">Message*</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter at least 30 characters"
+                            required minlength="30"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="common-submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <main class="first-section">
+        <div class="first-content">
+            <p class="pre-title">Custom MVP Software Development</p>
+            <h1>Fast-Track Your Product Launch with <br>#1 MVP Software Development Company</h1>
+            <p class="description">
+                Launch your MVP in record time! With a ready-to-use UI design system and pre-coded MVP modules you’ll
+                get a working product in weeks with CONTUS Tech's MVP Development services.
+            </p>
+            <div class="first-features-grid">
+                <div class="first-feature-box">MVPs Delivered 40% Faster</div>
+                <div class="first-feature-box">End-to-End MVP Engineering</div>
+                <div class="first-feature-box">Market-Tested, Lean Development</div>
+                <div class="first-feature-box">Support from Ideation to Rollout</div>
+                <div class="first-feature-box">Launch Your MVP in 30 Days</div>
+                <div class="first-feature-box">Low-Code & Full-Code Options</div>
+            </div>
+            <button id="lets talk" class="first-cta-button">
+                Let's Talk →
+            </button>
+        </div>
+    </main>
+    <!-- Fixed "Book a Call" Button -->
+    <div id="book a call" class="fixed-cta">
+        Book a Call
+    </div>
+
+    <div class="first-main-container">
+        <section class="first-clients-section">
+            <p class="trusted-by-text"><b>
+                    Trusted by Funded Startups to <span class="highlight-text"><b>Fortune 500+ Brands</b></span> in 12+
+                    Countries.</b>
+            </p>
+            <div class="first-logo-grid">
+                <img src="our-clients.webp"
+                    alt="Client logos including ADCB, Hyundai, Coca-Cola, Mercedes-Benz, and Cisco">
+            </div>
+        </section>
+        <section class="first-hero-section">
+            <h2>Got an MVP Idea?</h2>
+            <h1>We Will Architect It To 100% Perfection. No Less</h1>
+        </section>
+        <section class="stats-section">
+            <div class="stat-item">
+                <span class="stat-number" data-target="100">100</span><span class="plus-sign">+</span>
+                <p>Dedicated MVP Engineers</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="500">500</span><span class="plus-sign">+</span>
+                <p>MVP Projects Delivered</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="70">70</span><span class="plus-sign">+</span>
+                <p>Countries We Served</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="17">17</span><span class="plus-sign">+</span>
+                <p>Total Years of Experience</p>
+            </div>
+        </section>
+        <section class="first-services-section">
+            <div class="first-services-header">
+                <h2>Custom MVP Software <br><b style="font-weight: 700;"> Development Services That Help You Get
+                        Started</b></h2>
+            </div>
+            <div class="first-services-grid">
+                <div class="first-service-card">
+                    <div class="service-icon"><img src="icon1.jpg" alt="icon 1"></div>
+                    <h3>MVP<br>Consulting</h3>
+                    <p>Validate your product idea with expert guidance and strategic planning for faster market entry.
+                    </p>
+                </div>
+                <div class="first-service-card">
+                    <div class="service-icon"><img src="icon2.jpg" alt="icon 2"></div>
+                    <h3>Poc<br>Development</h3>
+                    <p>Test technical feasibility quickly with Proof of Concept solutions tailored to your unique idea.
+                    </p>
+                </div>
+                <div class="first-service-card">
+                    <div class="service-icon"><img src="icon 3.jpg" alt="icon 3"></div>
+                    <h3>Prototype<br>Design & Development</h3>
+                    <p>Bring ideas to life with interactive prototypes that align with your product vision and goals.
+                    </p>
+                </div>
+                <div class="first-service-card">
+                    <div class="service-icon"><img src="icon 4.jpg" alt="icom4"></div>
+                    <h3>Custom MVP<br>Development</h3>
+                    <p>We build lean, market-ready MVPs tailored to your business model, goals, and user needs.</p>
+                </div>
+                <div class="first-service-card">
+                    <div class="service-icon"><img src="icon 5.jpg" alt="icon 5"></div>
+                    <h3>MVP Scaling<br>& Optimization</h3>
+                    <p>Enhance performance, fix bottlenecks, & scale your MVP effectively based on feedback.</p>
+                </div>
+                <div class="first-service-card">
+                    <div class="service-icon"><img src="icon 6.jpg" alt="icon6"></div>
+                    <h3>Full-Scale<br>Product Development</h3>
+                    <p>Transform your MVP into a full-featured product ready for growth and long-term success.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="process-section">
+        <div class="genesis_prologue">
+            <h2>Steps to Engage</h2>
+            <h1>MVP Development Process We Follow</h1>
+        </div>
+        <div class="bus-topology">
+            <div class="steps-row top-row">
+                <div class="step" style="margin-left: 0px;">
+                    <div class="icon icon-1"><img src="process 1.svg" alt="process 1"></div>
+                    <h3>1. Ideation & Market Validation</h3>
+                    <p>Refine your idea & validate market demand before investing in full product.</p>
+                </div>
+                <div class="step" style="margin-left: 0px;">
+                    <div class="icon icon-2"><img src="process.svg" alt="process 2"></div>
+                    <h3>2. MVP Prototyping & UX/UI Design</h3>
+                    <p>Design MVP prototypes with user-focused UI/UX to ensure strong engagement.</p>
+                </div>
+                <div class="step" style="margin-right: 10%;">
+                    <div class="icon icon-3"> <img src="process 3.svg" alt="process 3"></div>
+                    <h3>3. Agile MVP Development</h3>
+                    <p>Build fast with agile methods—iterative MVP releases tailored to evolving user needs.</p>
+                </div>
+            </div>
+            <div class="dottedline"><img src="bus.svg" alt="dottedline" style="width: 75rem; margin-bottom: -6rem;">
+            </div>
+            <!-- Bottom Row -->
+            <div class="steps-row bottom-row">
+                <div class="step">
+                    <div class="icon icon-4"><img src="process 4.svg" alt="process 4"></div>
+                    <h3>4. MVP Testing & Iteration</h3>
+                    <p>Test and optimize your MVP through real user feedback and continuous improvements.</p>
+                </div>
+                <div class="step">
+                    <div class="icon icon-5"><img src="process 5.svg" alt="process 5"></div>
+                    <h3>5. Deployment & Market Launch</h3>
+                    <p>Seamless MVP deployment with go-to-market strategies to maximize impact.</p>
+                </div>
+                <div class="step">
+                    <div class="icon icon-6"><img src="process 6.svg" alt="process 6"></div>
+                    <h3>6. Scaling & Feature Expansion</h3>
+                    <p>Grow your MVP into a powerful product with scalable architecture and user-driven.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Hero Section -->
+    <header class="mid-hero">
+        <div class="mid-hero-1">
+            <h1>
+                Turn Your Vision Into Reality With Our Expert MVP
+                <span>Development Services</span>
+            </h1>
+            <button id="mid-hero-2" class="mid-hero-3">Book A 30 Mins Call</button>
+        </div>
+    </header>
+
+
+
+
+    <div class="tech-stack-container">
+        <h1>Next-Gen Technology Stack for <br><span>MVP Development Behind the Speed & Scalability</span></h1>
+
+        <div class="stack-list-wrapper">
+            <!-- Initially Visible Content -->
+            <div class="stack-category">
+                <div>
+                    <h2>Frameworks</h2>
+                </div>
+                <div class="tech-pills-container">
+                    <div class="tech-pill"><img src="tick.png" alt="tick"> Django</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> Flask</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> FastAPI</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> Pyramid</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> Tornado</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> Bottle</div>
+                </div>
+            </div>
+
+            <div class="stack-category">
+                <h2>Databases</h2>
+                <div class="tech-pills-container">
+                    <div class="tech-pill highlighted"><img src="tick.png" alt="Tick"> MySQL
+                    </div>
+                    <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                        PostgreSQL</div>
+                    <div class="tech-pill highlighted"><img src="tick.png" alt="Tick"> SQLite
+                    </div>
+                    <div class="tech-pill highlighted"><img src="tick.png" alt="Tick"> MongoDB
+                    </div>
+                    <div class="tech-pill highlighted"><img src="tick.png" alt="Tick"> MariaDB
+                    </div>
+                    <div class="tech-pill highlighted"><img src="tick.png" alt="Tick"> Redis
+                    </div>
+                    <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                        Cassandra</div>
+                    <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                        DynamoDB</div>
+                </div>
+            </div>
+
+            <div class="stack-category">
+                <h2>Version Control</h2>
+                <div class="tech-pills-container">
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> Git</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> GitHub</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> GitLab</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> Bitbucket</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> AWS</div>
+                    <div class="tech-pill"><img src="tick.png" alt="Tick"> CodeCommit</div>
+                </div>
+            </div>
+
+            <!-- Initially Hidden Content -->
+            <div id="more-stack-content">
+                <div class="stack-category">
+                    <h2>Startup Kit/CMS</h2>
+                    <div class="tech-pills-container">
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                            Django</div>
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick"> CMS
+                        </div>
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                            Wagtail</div>
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                            Mezzanine</div>
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                            Plone</div>
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                            Flask-Admin</div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <h2>Development Tools</h2>
+                    <div class="tech-pills-container">
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            PyCharm</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick"> VS
+                            Code</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Sublime Text</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Jupyter</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Notebook</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Atom</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Thonny</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Spyder</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Postman</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Docker</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Vagrant</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Virtualenv</div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <h2>Cloud</h2>
+                    <div class="tech-pills-container">
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick"> AWS
+                        </div>
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                            Azure</div>
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                            Google Cloud Platform (GCP)</div>
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                            DigitalOcean</div>
+                        <div class="tech-pill highlighted"><img src="tick.png" alt="Tick">
+                            Heroku</div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <h2>Deployment</h2>
+                    <div class="tech-pills-container">
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Docker</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Kubernetes</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Jenkins</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            DigitalOcean App Platform</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            CircleCI</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            GitHub Actions</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick">
+                            Travis CI</div>
+                        <div class="tech-pill"><img src="tick.png" alt="Tick"> AWS
+                            CodeDeploy</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toggle Button -->
+            <a id="toggle-view-btn" class="toggle-view-btn" href="#">View more →</a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="mid-container">
+        <div class="mid-array1">
+            <div class="mid-array11">
+                <div class="prologue_inscription_field">
+                    <h2 style="width: 20rem; height: 10rem; ">
+                        <span style="font-size:2rem;  font-weight:300;"> Upsides for Teaming Up </span>
+                        <br>
+                        <span style="font-size: 2rem; font-weight:700%;"> with CONTUS Tech for MVP Development</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="mid-array12">
+                <div class="mid-data">
+                    <img src="mvp 1.svg" alt="Agile Architecture Icon">
+                    <h3>Agile Architecture</h3>
+                    <p>Scalable, modular architecture built for speed, flexibility, and easy iteration as your product
+                        grows.</p>
+                </div>
+                <div class="mid-data">
+                    <img src="mvp 2.svg" alt="Post-MVP Roadmap Support Icon">
+                    <h3>Post-MVP Roadmap Support</h3>
+                    <p>Strategic guidance beyond MVP—plan features, prioritize goals, and evolve based on user insights.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mid-array2">
+            <div class="mid-data">
+                <img src="mvp 3.svg" alt="Industry-Leading Expertise Icon">
+                <h3>Industry-Leading Expertise</h3>
+                <p>Work with seasoned MVP experts trusted by startups and enterprises across multiple industries.</p>
+            </div>
+            <div class="mid-data">
+                <img src="mvp 4.svg" alt="Commitment to Data Privacy Icon">
+                <h3>Commitment to Data Privacy</h3>
+                <p>Your data stays secure—privacy-first development practices aligned with industry standards and
+                    regulations.</p>
+            </div>
+            <div class="mid-data">
+                <img src="mvp 5.svg" alt="Flexible Engagement Models Icon">
+                <h3>Flexible Engagement Models</h3>
+                <p>Develop prototypes using research insights and user data for better design and development decisions.
+                </p>
+            </div>
+            <div class="mid-data">
+                <img src="mvp 6.svg" alt="Helping Start-Ups Icon">
+                <h3>Helping Start-Ups</h3>
+                <p>We've helped 100+ startups turn ideas into successful, investor-ready MVPs and full-scale products.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="mid-section">
+        <div class="mid-sec">
+            <h1>
+                Get A Custom-Made MVP That Lets You Pivot
+                <span>Fast-Without Limits!</span>
+            </h1>
+            <button id="mid-btn" class="mid-btn-class">Book A 30 Mins Call</button>
+        </div>
+    </section>
+
+
+
+
+    <div class="tab-section">
+        <header class="section-header">
+            <h1>Helping Every Industry <br> Achieve 10x More with MVP Development</h1>
+        </header>
+
+        <div class="tabs-container">
+            <div class="tabs-nav">
+                <button class="tab-button active" data-tab="entertainment">Entertainment</button>
+                <button class="tab-button" data-tab="ecommerce">Ecommerce</button>
+                <button class="tab-button" data-tab="education">Education</button>
+                <button class="tab-button" data-tab="enterprises">Enterprises</button>
+                <button class="tab-button" data-tab="healthcare">Healthcare</button>
+                <button class="tab-button" data-tab="automotive">Automotive</button>
+                <button class="tab-button" data-tab="fintech">Fintech</button>
+                <button class="tab-button" data-tab="telecom">Telecom</button>
+            </div>
+            <div class="tabs-content">
+                <!--item 1 Entertainment Panel -->
+                <div class="tab-panel active" id="entertainment">
+                    <div class="panel-text">
+                        <h3>Entertainment</h3>
+                        <p>Build cutting-edge entertainment MVPs that enhance user engagement, creativity, and real-time
+                            content experiences.</p>
+                        <ul><b>
+                                <li>Video Streaming Solutions</li>
+                                <li>Storyboarding & Collaboration</li>
+                                <li>Live Event Ticketing</li>
+                                <li>Music Sharing Platforms</li>
+                                <li>VFX Workflow Tools</li>
+                            </b></ul>
+                    </div>
+                    <div class="panel-image">
+                        <img src="entertainment.png" alt="Entertainment MVP Development">
+                    </div>
+                </div>
+                <!-- item 2 Ecommerce Panel -->
+                <div class="tab-panel" id="ecommerce">
+                    <div class="panel-text">
+                        <h3>Ecommerce & Retail</h3>
+                        <p>Launch innovative retail MVPs focused on seamless shopping, customer retention, and smart
+                            inventory systems.</p>
+                        <ul><b>
+                                <li>Custom eCommerce MVPs</li>
+                                <li>Inventory Management Systems</li>
+                                <li>Virtual Try-On Apps</li>
+                                <li>Loyalty Reward Platforms</li>
+                                <li>AI Product Recommendations</li>
+                            </b></ul>
+                    </div>
+                    <div class="panel-image">
+                        <img src="eCommerce.png" alt="Ecommerce MVP Development">
+                    </div>
+                </div>
+                <!-- item 3 Education Panel -->
+                <div class="tab-panel" id="education">
+                    <div class="panel-text">
+                        <h3>Education</h3>
+                        <p>Create learning-focused MVPs that simplify education delivery, student engagement, and
+                            performance tracking.</p>
+                        <ul><b>
+                                <li>eLearning Course Platforms</li>
+                                <li>Live Class Solutions</li>
+                                <li>Quiz & Assessment Tools</li>
+                                <li>Progress tracking for goal achievement</li>
+                                <li>Collaborative Learning Portals</li>
+                            </b></ul>
+                    </div>
+                    <div class="panel-image">
+                        <img src="education.png" alt="Education MVP Development">
+                    </div>
+                </div>
+                <!-- item 4 enterprise -->
+                <div class="tab-panel" id="enterprises">
+                    <div class="panel-text">
+                        <h3>Enterprises</h3>
+                        <p>Develop scalable enterprise MVPs to improve internal operations, communication, and business
+                            decision-making.</p>
+                        <ul><b>
+                                <li>Internal Workflow Platforms</li>
+                                <li>Project Management Tools</li>
+                                <li>HR & Payroll Systems</li>
+                                <li>Enterprise Chat Solutions</li>
+                                <li>Analytics & BI Dashboards</li>
+                            </b></ul>
+                    </div>
+                    <div class="panel-image">
+                        <img src="enterprises.png" alt="Enterprises MVP">
+                    </div>
+                </div>
+                <!-- item 5 Healthcare -->
+                <div class="tab-panel" id="healthcare">
+                    <div class="panel-text">
+                        <h3>Healthcare</h3>
+                        <p>Deliver secure healthcare MVPs for patient care, data management, and real-time medical
+                            interactions.</p>
+                        <ul><b>
+                                <li>Telemedicine MVP Solutions</li>
+                                <li>Appointment Booking Systems</li>
+                                <li>EHR Management Tools</li>
+                                <li>Health Tracking Apps</li>
+                                <li>Medical AI Assistants</li>
+                            </b></ul>
+                    </div>
+                    <div class="panel-image">
+                        <img src="healthcare.png" alt="Healthcare MVP">
+                    </div>
+                </div>
+                <!-- item 6 Automotive -->
+                <div class="tab-panel" id="automotive">
+                    <div class="panel-text">
+                        <h3>Automotive</h3>
+                        <p>Drive innovation with automotive MVPs built for smart mobility, vehicle tracking, and
+                            customer experiences.</p>
+                        <ul><b>
+                                <li>Vehicle Booking Platforms</li>
+                                <li>Fleet Management Systems</li>
+                                <li>AR Car Showroom</li>
+                                <li>Predictive Maintenance Tools</li>
+                                <li>Driver Behavior Analytics</li>
+                            </b></ul>
+                    </div>
+                    <div class="panel-image">
+                        <img src="automotive.png" alt="Ecommerce MVP Development">
+                    </div>
+                </div>
+                <!-- item 7 Fintech -->
+                <div class="tab-panel" id="fintech">
+                    <div class="panel-text">
+                        <h3>Fintech</h3>
+                        <p>Launch FinTech MVPs focused on secure transactions, financial insights, and next-gen digital
+                            banking experiences.</p>
+                        <ul><b>
+                                <li>Digital Wallet MVPs</li>
+                                <li>Expense Tracking Tools</li>
+                                <li>Investment Platforms</li>
+                                <li>Loan Application Systems</li>
+                                <li>Crypto Payment Gateways</li>
+                            </b></ul>
+                    </div>
+                    <div class="panel-image">
+                        <img src="fintech.png" alt="Ecommerce MVP Development">
+                    </div>
+                </div>
+                <!-- item 8 Telecom -->
+                <div class="tab-panel" id="telecom">
+                    <div class="panel-text">
+                        <h3>Telecom</h3>
+                        <p>Build MVPs for telecom that streamline communication, automate services, and enhance customer
+                            engagement.</p>
+                        <ul><b>
+                                <li>VoIP Call Platforms</li>
+                                <li>Billing & Recharge MVPs</li>
+                                <li>Customer Support Chatbots</li>
+                                <li>Network Monitoring Tools</li>
+                                <li>User Plan Dashboards</li>
+                            </b></ul>
+                    </div>
+                    <div class="panel-image">
+                        <img src="eCommerce.png" alt="Ecommerce MVP Development">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="faq-section">
+        <h2>FAQ About MVP Development</h2>
+        <div class="faq-container">
+            <!-- Item 1 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>How long does it take to develop MVP software?</span>
+                    <div class="faq-icon">+</div>
+                </button>
+                <div class="faq-answer">
+                    <p>The MVP building process usually takes from 3 to 4 months. Of course, everything depends on the
+                        features set, design complexity, and human resources who are engaged in the process.</p>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>How much does MVP development cost?</span>
+                    <div class="faq-icon">+</div>
+                </button>
+                <div class="faq-answer">
+                    <p>The average cost range for building an MVP varies widely, from $10,000 to over $150,000,
+                        influenced by complexity, team composition, and technology.
+                    </p>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Should I hire mvp developers for my project?</span>
+                    <div class="faq-icon">+</div>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, MVP developers help you launch faster, validate your idea with core features, reduce costs,
+                        and iterate quickly based on user feedback—ideal for startups and early-stage projects.</p>
+                </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Do you offer MVP development for enterprises or only for startups?</span>
+                    <div class="faq-icon">+</div>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, CONTUS Tech offers MVP development services for both startups and enterprises, tailored to
+                        meet the unique goals, scale, and challenges of each business type.</p>
+                </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>What Should I Consider When Selecting An MVP Software Development Company?</span>
+                    <div class="faq-icon">+</div>
+                </button>
+                <div class="faq-answer">
+                    <p>When selecting an MVP software development company, focus on their expertise, experience, and
+                        communication skills, as well as their ability to adapt to your specific needs and budget.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-main-content">
+            <div class="footer-inner-wrapper">
+                <h2>Partner With A Team & Accelerate Your<br>MVP Launch In Weeks, Not Months</h2>
+                <p>Deploy our agile approach and product expertise to fast-track your vision into a hi-tech product.</p>
+                <button class="contact-btn" id="contact-btn">Contact Us</button>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2025. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="final.js"></script>
+
+</body>
+
+</html>

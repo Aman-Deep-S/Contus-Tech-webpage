@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1482" height="136" viewBox="0 0 1482 136">
+  <defs>
+    <filter id="Ellipse_8495" x="0" y="61" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_8496" x="1444" y="61" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_141868" data-name="Group 141868" transform="translate(-222 -4867)">
+    <g id="Ellipse_8494" data-name="Ellipse 8494" transform="translate(1067 4988)" fill="#fff" stroke="#025236" stroke-width="3">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_8494-2" data-name="Ellipse 8494" transform="translate(1509 4988)" fill="#fff" stroke="#025236" stroke-width="3">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+    </g>
+    <g id="Group_141867" data-name="Group 141867">
+      <g id="Ellipse_8494-3" data-name="Ellipse 8494" transform="translate(403 4867)" fill="#fff" stroke="#025236" stroke-width="3">
+        <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+        <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+      </g>
+      <g id="Ellipse_8494-4" data-name="Ellipse 8494" transform="translate(624 4988)" fill="#fff" stroke="#025236" stroke-width="3">
+        <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+        <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+      </g>
+      <g id="Ellipse_8494-5" data-name="Ellipse 8494" transform="translate(845 4867)" fill="#fff" stroke="#025236" stroke-width="3">
+        <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+        <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+      </g>
+      <g id="Ellipse_8494-6" data-name="Ellipse 8494" transform="translate(1288 4867)" fill="#fff" stroke="#025236" stroke-width="3">
+        <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+        <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+      </g>
+      <g id="Group_141764" data-name="Group 141764" transform="translate(0 -1269.5)">
+        <path id="Path_275987" data-name="Path 275987" d="M0,0H1451" transform="translate(238.5 6214)" fill="none" stroke="#b4b4b4" stroke-width="2" stroke-dasharray="3"/>
+        <g transform="matrix(1, 0, 0, 1, 222, 6136.5)" filter="url(#Ellipse_8495)">
+          <g id="Ellipse_8495-2" data-name="Ellipse 8495" transform="translate(9 67)" fill="#008b5b" stroke="#008b5b" stroke-width="3">
+            <circle cx="10" cy="10" r="10" stroke="none"/>
+            <circle cx="10" cy="10" r="8.5" fill="none"/>
+          </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 222, 6136.5)" filter="url(#Ellipse_8496)">
+          <g id="Ellipse_8496-2" data-name="Ellipse 8496" transform="translate(1453 67)" fill="#008b5b" stroke="#008b5b" stroke-width="3">
+            <circle cx="10" cy="10" r="10" stroke="none"/>
+            <circle cx="10" cy="10" r="8.5" fill="none"/>
+          </g>
+        </g>
+        <line id="Line_3" data-name="Line 3" y2="54" transform="translate(631.5 6214)" fill="none" stroke="#b4b4b4" stroke-width="2" stroke-dasharray="3"/>
+        <line id="Line_4" data-name="Line 4" y2="54" transform="translate(852.5 6160)" fill="none" stroke="#b4b4b4" stroke-width="2" stroke-dasharray="3"/>
+        <line id="Line_5" data-name="Line 5" y2="54" transform="translate(1295.5 6160)" fill="none" stroke="#b4b4b4" stroke-width="2" stroke-dasharray="3"/>
+        <line id="Line_6" data-name="Line 6" y2="54" transform="translate(1074.5 6214)" fill="none" stroke="#b4b4b4" stroke-width="2" stroke-dasharray="3"/>
+        <line id="Line_7" data-name="Line 7" y2="54" transform="translate(1516.5 6214)" fill="none" stroke="#b4b4b4" stroke-width="2" stroke-dasharray="3"/>
+        <g id="Group_141763" data-name="Group 141763">
+          <line id="Line_2" data-name="Line 2" y2="54" transform="translate(410.5 6160)" fill="none" stroke="#b4b4b4" stroke-width="2" stroke-dasharray="3"/>
+          <g id="Ellipse_8497" data-name="Ellipse 8497" transform="translate(403 6206.5)" fill="#fff" stroke="#025236" stroke-width="3">
+            <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+            <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+          </g>
+        </g>
+        <g id="Ellipse_8498" data-name="Ellipse 8498" transform="translate(624 6206.5)" fill="#fff" stroke="#025236" stroke-width="3">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+        </g>
+        <g id="Ellipse_8499" data-name="Ellipse 8499" transform="translate(845 6206.5)" fill="#fff" stroke="#025236" stroke-width="3">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+        </g>
+        <g id="Ellipse_8500" data-name="Ellipse 8500" transform="translate(1067 6206.5)" fill="#fff" stroke="#025236" stroke-width="3">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+        </g>
+        <g id="Ellipse_8501" data-name="Ellipse 8501" transform="translate(1288 6206.5)" fill="#fff" stroke="#025236" stroke-width="3">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+        </g>
+        <g id="Ellipse_8502" data-name="Ellipse 8502" transform="translate(1509 6206.5)" fill="#fff" stroke="#025236" stroke-width="3">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="6" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
