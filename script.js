@@ -96,10 +96,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const tabsNav = document.querySelector('.tabs-nav');
     const tabButtons = document.querySelectorAll('.tab-button');
@@ -131,9 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const faqItems = document.querySelectorAll('.faq-item');
 
@@ -155,8 +148,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 answerPanel.style.maxHeight = null;
                 icon.textContent = '+';
             }
-
-
             faqItems.forEach(otherItem => {
                 if (otherItem !== item && otherItem.classList.contains('active')) {
                     otherItem.classList.remove('active');
